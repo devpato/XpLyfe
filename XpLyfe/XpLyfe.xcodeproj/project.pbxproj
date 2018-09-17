@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0380DD947F99A9828AF27C8A /* Pods_XpLyfeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449ADABFCFA8FD2018E09929 /* Pods_XpLyfeTests.framework */; };
+		229CDF709C367F1C01A11431 /* Pods_XpLyfeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385DD1FD479636A5AA5F0308 /* Pods_XpLyfeUITests.framework */; };
+		692776E2214DEF1E0049A654 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692776D7214DEF1C0049A654 /* ForgotPasswordViewController.swift */; };
+		692776E3214DEF1E0049A654 /* MFAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 692776D8214DEF1D0049A654 /* MFAViewController.xib */; };
+		692776E4214DEF1E0049A654 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692776D9214DEF1D0049A654 /* SignUpViewController.swift */; };
+		692776E5214DEF1E0049A654 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692776DB214DEF1D0049A654 /* SignInViewController.swift */; };
+		692776E6214DEF1E0049A654 /* ConfirmForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692776DC214DEF1D0049A654 /* ConfirmForgotPasswordViewController.swift */; };
+		692776E7214DEF1E0049A654 /* DevicesDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692776DD214DEF1D0049A654 /* DevicesDetailTableViewController.swift */; };
+		692776E8214DEF1E0049A654 /* MFAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692776DE214DEF1E0049A654 /* MFAViewController.swift */; };
+		692776E9214DEF1E0049A654 /* ConfirmSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692776DF214DEF1E0049A654 /* ConfirmSignUpViewController.swift */; };
+		692776EA214DEF1E0049A654 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692776E0214DEF1E0049A654 /* Constants.swift */; };
+		692776EB214DEF1E0049A654 /* UserDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692776E1214DEF1E0049A654 /* UserDetailTableViewController.swift */; };
+		692776EE214EBE040049A654 /* Main.storyboard_old.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692776EC214EBE040049A654 /* Main.storyboard_old.storyboard */; };
 		7CAFA9EA21253324009759F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFA9E921253324009759F4 /* AppDelegate.swift */; };
 		7CAFA9EC21253324009759F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFA9EB21253324009759F4 /* ViewController.swift */; };
 		7CAFA9EF21253324009759F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CAFA9ED21253324009759F4 /* Main.storyboard */; };
@@ -14,6 +27,7 @@
 		7CAFA9F421253324009759F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CAFA9F221253324009759F4 /* LaunchScreen.storyboard */; };
 		7CAFA9FF21253325009759F4 /* XpLyfeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFA9FE21253325009759F4 /* XpLyfeTests.swift */; };
 		7CAFAA0A21253325009759F4 /* XpLyfeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFAA0921253325009759F4 /* XpLyfeUITests.swift */; };
+		DCF3680C68D369A627A7BF2B /* Pods_XpLyfe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCC4C2FD32CF43574E41213 /* Pods_XpLyfe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +48,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		210B15AA86A6AFB3350D8061 /* Pods-XpLyfe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XpLyfe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XpLyfe/Pods-XpLyfe.debug.xcconfig"; sourceTree = "<group>"; };
+		28AB7212A93A02834C750B38 /* Pods-XpLyfeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XpLyfeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XpLyfeUITests/Pods-XpLyfeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		385DD1FD479636A5AA5F0308 /* Pods_XpLyfeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XpLyfeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BCC4C2FD32CF43574E41213 /* Pods_XpLyfe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XpLyfe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		449ADABFCFA8FD2018E09929 /* Pods_XpLyfeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XpLyfeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		692776D7214DEF1C0049A654 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		692776D8214DEF1D0049A654 /* MFAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFAViewController.xib; sourceTree = "<group>"; };
+		692776D9214DEF1D0049A654 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		692776DA214DEF1D0049A654 /* CognitoYourUserPoolsSample.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = CognitoYourUserPoolsSample.entitlements; sourceTree = "<group>"; };
+		692776DB214DEF1D0049A654 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		692776DC214DEF1D0049A654 /* ConfirmForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		692776DD214DEF1D0049A654 /* DevicesDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesDetailTableViewController.swift; sourceTree = "<group>"; };
+		692776DE214DEF1E0049A654 /* MFAViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MFAViewController.swift; sourceTree = "<group>"; };
+		692776DF214DEF1E0049A654 /* ConfirmSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmSignUpViewController.swift; sourceTree = "<group>"; };
+		692776E0214DEF1E0049A654 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		692776E1214DEF1E0049A654 /* UserDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailTableViewController.swift; sourceTree = "<group>"; };
+		692776ED214EBE040049A654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard_old.storyboard; sourceTree = "<group>"; };
+		6C398A9E3524E0DAB0BF3002 /* Pods-XpLyfeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XpLyfeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XpLyfeTests/Pods-XpLyfeTests.release.xcconfig"; sourceTree = "<group>"; };
+		75FC693059D805EDC93F4B77 /* Pods-XpLyfeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XpLyfeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XpLyfeUITests/Pods-XpLyfeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7CAFA9E621253324009759F4 /* XpLyfe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XpLyfe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAFA9E921253324009759F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CAFA9EB21253324009759F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +80,8 @@
 		7CAFAA0521253325009759F4 /* XpLyfeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XpLyfeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAFAA0921253325009759F4 /* XpLyfeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XpLyfeUITests.swift; sourceTree = "<group>"; };
 		7CAFAA0B21253325009759F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD38BEFC648409CF5A80648E /* Pods-XpLyfeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XpLyfeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XpLyfeTests/Pods-XpLyfeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5AAFE5C69EF9C5C9FD000EF /* Pods-XpLyfe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XpLyfe.release.xcconfig"; path = "Pods/Target Support Files/Pods-XpLyfe/Pods-XpLyfe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCF3680C68D369A627A7BF2B /* Pods_XpLyfe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0380DD947F99A9828AF27C8A /* Pods_XpLyfeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				229CDF709C367F1C01A11431 /* Pods_XpLyfeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +119,8 @@
 				7CAFA9FD21253325009759F4 /* XpLyfeTests */,
 				7CAFAA0821253325009759F4 /* XpLyfeUITests */,
 				7CAFA9E721253324009759F4 /* Products */,
+				CC464642008C0318E3440F18 /* Pods */,
+				FB9DB156553787A3724C3939 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +137,18 @@
 		7CAFA9E821253324009759F4 /* XpLyfe */ = {
 			isa = PBXGroup;
 			children = (
+				692776EC214EBE040049A654 /* Main.storyboard_old.storyboard */,
+				692776DA214DEF1D0049A654 /* CognitoYourUserPoolsSample.entitlements */,
+				692776DC214DEF1D0049A654 /* ConfirmForgotPasswordViewController.swift */,
+				692776DF214DEF1E0049A654 /* ConfirmSignUpViewController.swift */,
+				692776E0214DEF1E0049A654 /* Constants.swift */,
+				692776DD214DEF1D0049A654 /* DevicesDetailTableViewController.swift */,
+				692776D7214DEF1C0049A654 /* ForgotPasswordViewController.swift */,
+				692776DE214DEF1E0049A654 /* MFAViewController.swift */,
+				692776D8214DEF1D0049A654 /* MFAViewController.xib */,
+				692776DB214DEF1D0049A654 /* SignInViewController.swift */,
+				692776D9214DEF1D0049A654 /* SignUpViewController.swift */,
+				692776E1214DEF1E0049A654 /* UserDetailTableViewController.swift */,
 				7CAFA9E921253324009759F4 /* AppDelegate.swift */,
 				7CAFA9EB21253324009759F4 /* ViewController.swift */,
 				7CAFA9ED21253324009759F4 /* Main.storyboard */,
@@ -125,6 +177,29 @@
 			path = XpLyfeUITests;
 			sourceTree = "<group>";
 		};
+		CC464642008C0318E3440F18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				210B15AA86A6AFB3350D8061 /* Pods-XpLyfe.debug.xcconfig */,
+				C5AAFE5C69EF9C5C9FD000EF /* Pods-XpLyfe.release.xcconfig */,
+				AD38BEFC648409CF5A80648E /* Pods-XpLyfeTests.debug.xcconfig */,
+				6C398A9E3524E0DAB0BF3002 /* Pods-XpLyfeTests.release.xcconfig */,
+				75FC693059D805EDC93F4B77 /* Pods-XpLyfeUITests.debug.xcconfig */,
+				28AB7212A93A02834C750B38 /* Pods-XpLyfeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB9DB156553787A3724C3939 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BCC4C2FD32CF43574E41213 /* Pods_XpLyfe.framework */,
+				449ADABFCFA8FD2018E09929 /* Pods_XpLyfeTests.framework */,
+				385DD1FD479636A5AA5F0308 /* Pods_XpLyfeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +207,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CAFAA0E21253325009759F4 /* Build configuration list for PBXNativeTarget "XpLyfe" */;
 			buildPhases = (
+				24AA72317EE35D67BB246609 /* [CP] Check Pods Manifest.lock */,
 				7CAFA9E221253324009759F4 /* Sources */,
 				7CAFA9E321253324009759F4 /* Frameworks */,
 				7CAFA9E421253324009759F4 /* Resources */,
+				4985FBE48BD40A04B19716F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +226,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CAFAA1121253325009759F4 /* Build configuration list for PBXNativeTarget "XpLyfeTests" */;
 			buildPhases = (
+				9C4DE586BF9B5E23A13F2FC8 /* [CP] Check Pods Manifest.lock */,
 				7CAFA9F621253325009759F4 /* Sources */,
 				7CAFA9F721253325009759F4 /* Frameworks */,
 				7CAFA9F821253325009759F4 /* Resources */,
@@ -167,6 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CAFAA1421253325009759F4 /* Build configuration list for PBXNativeTarget "XpLyfeUITests" */;
 			buildPhases = (
+				2FFF9596495879B6489F0F82 /* [CP] Check Pods Manifest.lock */,
 				7CAFAA0121253325009759F4 /* Sources */,
 				7CAFAA0221253325009759F4 /* Frameworks */,
 				7CAFAA0321253325009759F4 /* Resources */,
@@ -230,8 +309,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CAFA9F421253324009759F4 /* LaunchScreen.storyboard in Resources */,
+				692776E3214DEF1E0049A654 /* MFAViewController.xib in Resources */,
 				7CAFA9F121253324009759F4 /* Assets.xcassets in Resources */,
 				7CAFA9EF21253324009759F4 /* Main.storyboard in Resources */,
+				692776EE214EBE040049A654 /* Main.storyboard_old.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +332,101 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24AA72317EE35D67BB246609 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XpLyfe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FFF9596495879B6489F0F82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XpLyfeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4985FBE48BD40A04B19716F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XpLyfe/Pods-XpLyfe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XpLyfe/Pods-XpLyfe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C4DE586BF9B5E23A13F2FC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XpLyfeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7CAFA9E221253324009759F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7CAFA9EC21253324009759F4 /* ViewController.swift in Sources */,
+				692776EB214DEF1E0049A654 /* UserDetailTableViewController.swift in Sources */,
+				692776E9214DEF1E0049A654 /* ConfirmSignUpViewController.swift in Sources */,
 				7CAFA9EA21253324009759F4 /* AppDelegate.swift in Sources */,
+				692776E4214DEF1E0049A654 /* SignUpViewController.swift in Sources */,
+				692776E6214DEF1E0049A654 /* ConfirmForgotPasswordViewController.swift in Sources */,
+				692776EA214DEF1E0049A654 /* Constants.swift in Sources */,
+				692776E5214DEF1E0049A654 /* SignInViewController.swift in Sources */,
+				692776E8214DEF1E0049A654 /* MFAViewController.swift in Sources */,
+				692776E2214DEF1E0049A654 /* ForgotPasswordViewController.swift in Sources */,
+				692776E7214DEF1E0049A654 /* DevicesDetailTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +462,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		692776EC214EBE040049A654 /* Main.storyboard_old.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				692776ED214EBE040049A654 /* Base */,
+			);
+			name = Main.storyboard_old.storyboard;
+			sourceTree = "<group>";
+		};
 		7CAFA9ED21253324009759F4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,6 +605,7 @@
 		};
 		7CAFAA0F21253325009759F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210B15AA86A6AFB3350D8061 /* Pods-XpLyfe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +623,7 @@
 		};
 		7CAFAA1021253325009759F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5AAFE5C69EF9C5C9FD000EF /* Pods-XpLyfe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +641,7 @@
 		};
 		7CAFAA1221253325009759F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD38BEFC648409CF5A80648E /* Pods-XpLyfeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -482,6 +662,7 @@
 		};
 		7CAFAA1321253325009759F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C398A9E3524E0DAB0BF3002 /* Pods-XpLyfeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +683,7 @@
 		};
 		7CAFAA1521253325009759F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75FC693059D805EDC93F4B77 /* Pods-XpLyfeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -521,6 +703,7 @@
 		};
 		7CAFAA1621253325009759F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28AB7212A93A02834C750B38 /* Pods-XpLyfeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
