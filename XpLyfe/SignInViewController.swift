@@ -17,8 +17,40 @@
 
 import Foundation
 import AWSCognitoIdentityProvider
-
+@IBDesignable extension UIButton {
+    
+    @IBInspectable var borderWidth: CGFloat {
+        set {
+            layer.borderWidth = newValue
+        }
+        get {
+            return layer.borderWidth
+        }
+    }
+    
+    @IBInspectable var cornerRadius: CGFloat {
+        set {
+            layer.cornerRadius = newValue
+        }
+        get {
+            return layer.cornerRadius
+        }
+    }
+    
+    @IBInspectable var borderColor: UIColor? {
+        set {
+            guard let uiColor = newValue else { return }
+            layer.borderColor = uiColor.cgColor
+        }
+        get {
+            guard let color = layer.borderColor else { return nil }
+            return UIColor(cgColor: color)
+        }
+    }
+}
 class SignInViewController: UIViewController {
+    
+    
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var password: UITextField!
     var passwordAuthenticationCompletion: AWSTaskCompletionSource<AWSCognitoIdentityPasswordAuthenticationDetails>?
@@ -32,6 +64,7 @@ class SignInViewController: UIViewController {
     }
     
     @IBAction func signInPressed(_ sender: AnyObject) {
+        
         if (self.username.text != nil && self.password.text != nil) {
             let authDetails = AWSCognitoIdentityPasswordAuthenticationDetails(username: self.username.text!, password: self.password.text! )
             self.passwordAuthenticationCompletion?.set(result: authDetails)
@@ -43,6 +76,18 @@ class SignInViewController: UIViewController {
             alertController.addAction(retryAction)
         }
     }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
+        backgroundImage.image = UIImage(named: "bg-img")
+        backgroundImage.contentMode = UIViewContentMode.scaleAspectFill
+        self.view.insertSubview(backgroundImage, at: 0)
+        
+        backgroundImage.alpha = 0.7
+        
+    }
+    
 }
 
 extension SignInViewController: AWSCognitoIdentityPasswordAuthentication {
