@@ -17,6 +17,9 @@
 
 import Foundation
 import AWSCognitoIdentityProvider
+import FacebookCore
+import FacebookLogin
+
 @IBDesignable extension UIButton {
     
     @IBInspectable var borderWidth: CGFloat {
@@ -86,6 +89,22 @@ class SignInViewController: UIViewController {
         
         backgroundImage.alpha = 0.7
         
+        let loginButton = LoginButton(readPermissions: [ .publicProfile ])
+        loginButton.translatesAutoresizingMaskIntoConstraints = false
+        
+        /*let screenSize:CGRect = UIScreen.main.bounds
+        let screenHeight = screenSize.height //real screen height
+        //let's suppose we want to have 10 points bottom margin
+        let newCenterY = self.view.
+        let newCenter = CGPoint(x: view.center.x, y: CGFloat(newCenterY))
+        loginButton.center = newCenter*/
+        
+        view.addSubview(loginButton)
+        
+        NSLayoutConstraint.activate([
+            loginButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 575),
+            loginButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 110)
+        ])
     }
     
 }
@@ -116,5 +135,14 @@ extension SignInViewController: AWSCognitoIdentityPasswordAuthentication {
                 self.dismiss(animated: true, completion: nil)
             }
         }
+    }
+}
+
+class FacebookProvider: NSObject, AWSIdentityProviderManager {
+    func logins() -> AWSTask<NSDictionary> {
+        if let token = AccessToken.current?.authenticationToken {
+            return AWSTask(result: [AWSIdentityProviderFacebook:token])
+        }
+        return AWSTask(error:NSError(domain: "Facebook Login", code: -1 , userInfo: ["Facebook" : "No current Facebook access token"]))
     }
 }
