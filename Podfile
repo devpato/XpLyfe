@@ -2,8 +2,11 @@
 # platform :ios, '9.0'
 
 target 'XpLyfe' do
-    pod 'AWSCore', '~> 2.6.0'
-    pod 'AWSCognitoIdentityProvider', '~> 2.6.0'
+    pod 'AWSCore'
+    pod 'AWSCognitoIdentityProvider'
+    pod 'FacebookCore'
+    pod 'FacebookLogin'
+    pod 'FacebookShare'
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
